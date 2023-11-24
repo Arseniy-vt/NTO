@@ -1,4 +1,8 @@
 def check(index, x_arr, height_arr, flag):
+    # переменные для главной функции
+    all_houses = 0
+    all_steps = 0
+
     count_houses = 0  # Обнуление переменной счетчиков снесенных домов на данной рекурсии
 
     # НАЧАЛО ЦИКЛА ----------------
@@ -23,12 +27,12 @@ def check(index, x_arr, height_arr, flag):
             if flag == 1:
                 next_index = now_house + height_arr[index]
             elif flag == 2:
-                next_index = next_house - height_arr[index]
+                next_index = now_house - height_arr[index]
 
             # Проверка, достанет ли дом до следующего
             if flag == 1:
                 if next_index < next_house:
-                    count_houses_another = check(index, x_arr, height_arr, 2)
+                    count_houses_left = check(index, x_arr, height_arr, 2)
                     # СДЕЛАТЬ ПРОВЕКУ НА ТО, КАКАЯ РЕКУРСИЯ ВЫГОДНЕЕ
                     end_while_flag = False
                 elif next_index == next_house:
