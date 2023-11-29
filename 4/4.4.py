@@ -46,7 +46,6 @@ while i < n - 1:
 
 print(*arr_right)
 
-
 arr_left = [1]
 index_left = 0
 flag = 0
@@ -90,36 +89,4 @@ while i > 0:
 
 print(*arr_left)
 
-
-count = 0
-while len(arr_left) > 0 or len(arr_right) > 0:
-    if arr_right[0] > arr_left[0]:
-        n = arr_right[0]
-        arr_right.remove(n)
-        while n > 0:
-            if arr_left[0] - n < 0:
-                n -= arr_left[0]
-                arr_left.remove(arr_left[0])
-            else:
-                tmp = n
-                n -= arr_left[0]
-                arr_left[0] -= tmp
-                if arr_left[0] == 0:
-                    arr_left.remove(arr_left[0])
-    else:
-        n = arr_left[0]
-        arr_left.remove(n)
-        while n > 0:
-            if arr_right[0] - n < 0:
-                n -= arr_right[0]
-                arr_right.remove(arr_right[0])
-            else:
-                tmp = n
-                n -= arr_right[0]
-                arr_right[0] -= tmp
-                if arr_right[0] == 0:
-                    arr_right.remove(arr_right[0])
-
-    count += 1
-
-print(count)
+# обработка двух массивов
