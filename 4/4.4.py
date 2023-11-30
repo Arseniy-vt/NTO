@@ -131,3 +131,6 @@ def break_max_height_buildings(arr_x, arr_h, arr_buildings):
     arr_x_2=arr_x[0:(arr_x.index(0))]
 
     return arr_x_1,arr_x_2
+
+def main():
+    pass
