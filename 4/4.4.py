@@ -94,51 +94,37 @@ def analise_massive(arr_x, arr_h):
     return result_arr
 
 
-def break_max_height_buildings(arr_x, arr_h, arr_buildings):
+def break_max_height_buildings(arr_x):
+    for i in range(len(arr_x)):
+        if arr_x[i].index(max(arr_x[i])) == 0:
+            arr_x[i] = -1*max(arr_x[i])
+        else:
+            arr_x[i] = max(arr_x[i])
+    # max_el=max(arr_x)
+    arr_x_cp = arr_x.copy()
+    arr_x_cp = list(map(abs, arr_x_cp))
 
-    max_building = 0
-    max_len = 0
-    for i in range(len(arr_buildings)):
-        if max(arr_buildings[i]) > max_len:
-            max_building = i
-            if arr_buildings[i].index(max(arr_buildings[i])) == 0:
-                max_building *= -1
-            max_len = max(max_len, max(arr_buildings[i]))
-    if max_building >= 0:
-        # print(max_building)
-        arr_x[max_building]=0
-        arr_h[max_building]=0
-        max_building += 1
-        while max_len != 0:
-            arr_x[max_building]=0
-            arr_h[max_building]=0
-            max_len -= 1
-            max_building += 1
+    max_index=arr_x_cp.index(max(arr_x_cp))
+    max_el = arr_x[max_index]
+    print(max_el,max_index)
+    if max_el >= 0:
+        arr_x[max_index] = 0
+        max_index+=1
+        while max_el != 0:
+            arr_x[max_index] = 0
+            max_el -= 1
+            max_index += 1
     else:
-        max_building *= -1
-        arr_x[max_building] = 0
-        arr_h[max_building] = 0
-        max_building -= 1
-        while max_len != 0:
-            arr_x[max_building] = 0
-            arr_h[max_building] = 0
-            max_len -= 1
-            max_building -= 1
-
-    print(arr_x,arr_h,max_building)
-
-    arr_x_1=arr_x[0:(arr_x.index(0))]
-    arr_x=list(reversed(arr_x))
-    arr_x_2=arr_x[0:(arr_x.index(0))]
-
-    arr_h_1 = arr_h[0:(arr_h.index(0))]
-    arr_h = list(reversed(arr_h))
-    arr_h_2 = arr_h[0:(arr_h.index(0))]
-
-    return arr_x_1,arr_x_2,arr_h_1,arr_h_2
-
-
-# def repeat_snos(arr_x, arr_h)
+        arr_x[max_index] = 0
+        max_index -= 1
+        while max_el != 0:
+            arr_x[max_index] = 0
+            max_el += 1
+            max_index -= 1
+    arr_x_1 = arr_x[0:(arr_x.index(0))]
+    arr_x = list(reversed(arr_x))
+    arr_x_2 = arr_x[0:(arr_x.index(0))]
+    return arr_x_1, arr_x_2
 
 def main():
     pass
