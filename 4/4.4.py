@@ -95,6 +95,7 @@ def analise_massive(arr_x, arr_h):
 
 
 def break_max_height_buildings(arr_x, arr_h, arr_buildings):
+
     max_building = 0
     max_len = 0
     for i in range(len(arr_buildings)):
@@ -130,7 +131,14 @@ def break_max_height_buildings(arr_x, arr_h, arr_buildings):
     arr_x=list(reversed(arr_x))
     arr_x_2=arr_x[0:(arr_x.index(0))]
 
-    return arr_x_1,arr_x_2
+    arr_h_1 = arr_h[0:(arr_h.index(0))]
+    arr_h = list(reversed(arr_h))
+    arr_h_2 = arr_h[0:(arr_h.index(0))]
+
+    return arr_x_1,arr_x_2,arr_h_1,arr_h_2
+
+
+# def repeat_snos(arr_x, arr_h)
 
 def main():
     pass
