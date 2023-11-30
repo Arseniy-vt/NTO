@@ -1,9 +1,3 @@
-
-ar_1=[2,6,8,11,14,17,19]
-ar_2=[3, 2, 1, 5, 4, 2, 1]
-ar_3=[[0,0],[0,1],[0,0],[2,2],[4,2],[0,1],[0,0]]
-
-
 def break_max_height_buildings(arr_x, arr_h, arr_buildings):
     max_building = 0
     max_len = 0
@@ -42,5 +36,4 @@ def break_max_height_buildings(arr_x, arr_h, arr_buildings):
 
     print(arr_x_1,arr_x_2)
 
-break_max_height_buildings(ar_1,ar_2,ar_3)
 
