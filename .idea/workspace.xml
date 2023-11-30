@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8799ed9-6ffc-44b3-abea-69a166d0550b" name="Changes" comment="0" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Снос-зданий-массива-выбор-наибольшего" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2YXmY104QpVyhcORJhPOLrgBGd6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Сборка-проекты",
+    "last_opened_file_path": "/home/arseniy/PycharmProjects/NTO"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8799ed9-6ffc-44b3-abea-69a166d0550b" name="Changes" comment="" />
+      <created>1700680341264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700680341264</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Порешал 4.2">
+      <option name="closed" value="true" />
+      <created>1700685939345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700685939345</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил алгоритм">
+      <option name="closed" value="true" />
+      <created>1701239379927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701239379927</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Поправил алгоритм">
+      <option name="closed" value="true" />
+      <created>1701240534638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701240534638</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create 4.3">
+      <option name="closed" value="true" />
+      <created>1701240791739</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701240791739</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create branches">
+      <option name="closed" value="true" />
+      <created>1701240856071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701240856071</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Создал шаблон функций">
+      <option name="closed" value="true" />
+      <created>1701241470401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701241470401</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Порешал 4.3">
+      <option name="closed" value="true" />
+      <created>1701242997230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701242997230</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create 4.4">
+      <option name="closed" value="true" />
+      <created>1701253010081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701253010081</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Шаблон 4.4">
+      <option name="closed" value="true" />
+      <created>1701253149144</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701253149144</updated>
+    </task>
+    <task id="LOCAL-00010" summary="4.4">
+      <option name="closed" value="true" />
+      <created>1701253400815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701253400815</updated>
+    </task>
+    <task id="LOCAL-00011" summary="0">
+      <option name="closed" value="true" />
+      <created>1701346501532</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701346501532</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/create-right" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Порешал 4.2" />
+    <MESSAGE value="Добавил алгоритм" />
+    <MESSAGE value="Поправил алгоритм" />
+    <MESSAGE value="Create 4.3" />
+    <MESSAGE value="Create branches" />
+    <MESSAGE value="Создал шаблон функций" />
+    <MESSAGE value="Порешал 4.3" />
+    <MESSAGE value="Create 4.4" />
+    <MESSAGE value="Шаблон 4.4" />
+    <MESSAGE value="4.4" />
+    <MESSAGE value="0" />
+    <option name="LAST_COMMIT_MESSAGE" value="0" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+Index: 4/4.4.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/4/4.4.py b/4/4.4.py
+--- a/4/4.4.py	(revision 2cb58664be00684a4b5161bda987af81a80aa662)
++++ b/4/4.4.py	(date 1701253750859)
+@@ -1,0 +1,1 @@
++def
+\ No newline at end of file
